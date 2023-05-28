@@ -1,3 +1,4 @@
-.searchResult {
-    display: none;
+.searchResult h3 {
+    color: #fff;
+    font-size: 3vw;
 }

@@ -11,9 +11,8 @@ function App() {
     <div class="App">
       <h1>\m/</h1>
       <SearchBar />
-      <SearchResult />
       <div class="metal">
-        <TrackList />
+        <SearchResult />
         <Playlist />
       </div>
     </div>

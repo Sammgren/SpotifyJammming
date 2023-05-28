@@ -1,17 +1,15 @@
 import React from 'react';
+import TrackList from '../TrackList/TrackList';
 
 import './Playlist.css';
 
 const Playlist = (props) => {
 
     return (
-        <div class="playList">
-            <h3>Current Playlist</h3>
-            <ul>
-                <li class="track-one">Track One</li>
-                <li class="track-two">Track Two</li>
-                <li class="track-two">Track Three</li>
-            </ul>
+        <div class="playList column">
+            <h3>Playlist</h3>
+            <TrackList />
+            <button class="save-button"> Add Playlist + </button>
         </div>
     );
 }

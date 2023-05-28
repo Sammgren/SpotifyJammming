@@ -7,7 +7,6 @@ const TrackList = (props) => {
 
     return (
         <div class="trackList">
-            <h3>The TrackList</h3>
             <Track />
         </div>
     );

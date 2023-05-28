@@ -1,13 +1,29 @@
+form {
+    padding: 6vw 0 0 0;
+}
+
 form label {
     display: none;
 }
 
 form input {
-    margin-top: 5vw;
     background: rgb(255, 255, 255);
-    border-bottom: 3px solid rgb(13, 13, 13);
     width: 30vw;
     height: 4vw;
-    border-radius: 1vw 0 1vw 0;
     text-align: center;
+    border: 0px;
+    vertical-align: top;
+}
+
+.button {
+    height: 4vw;
+    width: 20%;
+    padding: 10px;
+    background: #e41111;
+    color: white;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border: 0px;
+    vertical-align: top;
 }
