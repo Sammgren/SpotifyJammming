@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  padding: 3vw;
+  border: 3px solid #f0caca;
+  border-radius: 6vw 0 6vw 0;
+  color: #f0caca;
+  background-color: #0b0a0a;
+}
+
+.App h1 {
+  font-size: 12vw;
+  color: #c40d0d;
+  text-shadow: #f0caca 4px 4px 1px;
+  padding: 1vw;
+  margin: 0;
+}
+
+.metal {
+  margin-top: 2vw;
+}

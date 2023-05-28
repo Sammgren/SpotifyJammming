@@ -1,0 +1,13 @@
+form label {
+    display: none;
+}
+
+form input {
+    margin-top: 5vw;
+    background: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(13, 13, 13);
+    width: 30vw;
+    height: 4vw;
+    border-radius: 1vw 0 1vw 0;
+    text-align: center;
+}

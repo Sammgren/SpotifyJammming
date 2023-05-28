@@ -1,0 +1,21 @@
+.playList {
+    width: 35vw;
+    display: inline-block;
+}
+
+.playList h3 {
+    color: #fff;
+    font-size: 3vw;
+}
+
+.playList ul {
+    border: solid 3px #fff;
+    padding: 0;
+}
+
+.playList li {
+    list-style: none;
+    height: 3vw;
+    padding-top: 1vh;
+}
+

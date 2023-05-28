@@ -1,0 +1,20 @@
+.trackList {
+    width: 35vw;
+    display: inline-block;
+}
+
+.trackList h3 {
+    color: #fff;
+    font-size: 3vw;
+}
+
+.trackList ul {
+    border: solid 3px #fff;
+    padding: 0;
+}
+
+.trackList ul li {
+    list-style: none;
+    height: 3vw;
+    padding-top: 1vh;
+}
