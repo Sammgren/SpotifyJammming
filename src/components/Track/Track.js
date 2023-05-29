@@ -1,16 +1,26 @@
 import React from 'react';
+import { useCallback } from 'react';
 
 import './Track.css';
 
-const Track = (props) => {
+//Testing Data 
 
+let data = 
+    {
+        name:"Coil",
+        artist:"Opeth",
+        album:"Watershed",
+        genre:"Metal",
+    }
+
+
+
+const Track = () => {
+    const tracks = data;
     return (
         <div>
-            <ul>
-                <li>Track one</li>
-                <li>Track Two</li>
-                <li>Track Three</li>
-            </ul>
+          <h4>{tracks.name}</h4>
+          <p>{tracks.artist} {tracks.album} {tracks.genre}</p>
         </div>
     );
 }

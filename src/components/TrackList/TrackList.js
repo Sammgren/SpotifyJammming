@@ -3,7 +3,7 @@ import Track from '../Track/Track';
 
 import './TrackList.css';
 
-const TrackList = (props) => {
+const TrackList = () => {
 
     return (
         <div class="trackList">
