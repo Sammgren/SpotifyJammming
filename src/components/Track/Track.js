@@ -5,22 +5,41 @@ import './Track.css';
 
 //Testing Data 
 
-let data = 
-    {
+let data = [
+        {
         name:"Coil",
         artist:"Opeth",
         album:"Watershed",
-        genre:"Metal",
+        genre:"Metal"
+    },
+    {
+        name:"Deform to Form A Star",
+        artist:"Steven Wilson",
+        album:"Grace for Drowning",
+        genre:"Progressive Rock"
+    },
+    {
+        name:"Swimming",
+        artist:"Mac Miller",
+        album:"In Circles",
+        genre:"Hip Hop"
     }
+
+]
 
 
 
 const Track = () => {
     const tracks = data;
+    const tracksList = tracks.map(musicTrack => 
+            <li>
+                <h4>{musicTrack.name}</h4>
+                <p>{musicTrack.artist} {musicTrack.album} {musicTrack.genre}</p>
+            </li>
+        );
     return (
         <div>
-          <h4>{tracks.name}</h4>
-          <p>{tracks.artist} {tracks.album} {tracks.genre}</p>
+            <ul>{tracksList}</ul>
         </div>
     );
 }

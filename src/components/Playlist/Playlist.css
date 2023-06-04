@@ -16,8 +16,7 @@
 
 .playList li {
     list-style: none;
-    height: 3vw;
-    padding-top: 1vh;
+    padding: 2vw 0 2vw 0;
 }
 
 .save-button {

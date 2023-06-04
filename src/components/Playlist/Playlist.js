@@ -9,7 +9,7 @@ const Playlist = (props) => {
         <div class="playList column">
             <h3>Playlist</h3>
             <TrackList />
-            <button class="save-button"> Add Playlist + </button>
+            <button type="button" class="save-button"> Add Playlist + </button>
         </div>
     );
 }
